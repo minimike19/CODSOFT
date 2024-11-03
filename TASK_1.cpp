@@ -18,9 +18,6 @@ int main() {
     mt19937 gen(rd());
     uniform_int_distribution<> distr(1, 100);
     int randomNumber = distr(gen);
-    
-    // Uncomment this line if you want to see the generated number for testing
-    // cout << "Generated number: " << randomNumber << endl;
 
     int guessedNumber;
     cout << "Enter your guessed number: ";
